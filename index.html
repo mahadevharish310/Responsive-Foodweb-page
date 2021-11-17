@@ -8,8 +8,8 @@
     <title>FoodWeb</title>
   </head>
   <body>
-    <header>
-      <a href="">FoodWeb</a>
+    <header id="main-header">
+      <a href="index.html" id="logo">FoodWeb</a>
       <nav>
         <ul>
           <li><a href="">Browse Meals</a></li>
@@ -19,20 +19,30 @@
     </header>
     <main>
       <h1>Browse Delicious Meals</h1>
-      <section>
+      <section id="latest-products">
         <ul>
-          <li>
+          <li class="food-items">
             <article>
-              <img src="" alt="" />
-              <h2>Risotto with Tiger Prawns</h2>
-              <button>Add to Cart</button>
+              <img
+                src="/images/risotto.jpg"
+                alt="Picture of Risotto with Tiger Prawns"
+              />
+              <div class="food-item-content">
+                <h2>Risotto with Tiger Prawns</h2>
+                <button class="btn">Add to Cart</button>
+              </div>
             </article>
           </li>
-          <li>
+          <li class="food-items">
             <article>
-              <img src="" alt="" />
-              <h2>Cheeseburgers</h2>
-              <button>Add to Cart</button>
+              <img
+                src="/images/cheeseburgers.jpg"
+                alt="Image of Cheeseburger"
+              />
+              <div class="food-item-content">
+                <h2>Cheeseburgers</h2>
+                <button class="btn">Add to Cart</button>
+              </div>
             </article>
           </li>
         </ul>
